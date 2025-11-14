@@ -1,7 +1,8 @@
+# lib/testing/dog_test.py
 import os
 
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker # type: ignore
+from sqlalchemy import create_engine # type: ignore
 
 from dog import (
     create_table,
